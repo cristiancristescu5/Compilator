@@ -1,0 +1,83 @@
+[int]: x ,
+[int]: x1,
+[int]: x2,
+[int]: y;
+[int] arr[10]; 
+[float]:f;
+CONST [int]p2:=2;
+[float]: f1;
+[int] arr2[10]; 
+[string] s1[100];
+CONST [bool]b11:=TRUE;
+
+
+function [int] TestFunction1([int]: x0,[float]: z;^^) 
+{ 
+    [int]: sum0;
+    sum0:=0+2;
+
+},
+function [int] TestFunction2([int]: x00, [float]: f0;^^) 
+{ 
+
+},
+function [int] test([int]: param1, [int]: param2, [float]: f00;^^) 
+{ 
+    [float] f2[100];
+    do_the_while(f2[i]>=2.0) 
+    DO {
+        [bool]: b1;
+         b1:=TRUE; 
+    };
+}
+;
+classify C1{
+
+},
+classify C2{
+   
+};
+begin_main()
+
+DECLARE C1 c111;
+[char]: ch;
+[int]: z2;
+[int] z1[100];
+[bool]: boolean;
+[string]: str1;
+[char]: str2;
+[float]: v;
+
+v:=1.0+0.1;
+z1[1]:=2+4;
+z2:=2+TestFunction1(2,0.4)^;
+z2:=3+3;
+str2:='C';
+boolean:=TRUE && TRUE || !FALSE;
+boolean:=2<3+5;
+str1:="ANA";
+if (x1<2) DO {};
+[int]: i;
+do_the_for(i:=2;i<=4;i:=i+2)  {  i:=2; [char]:x3; b1:=2<4 && 6>2;  b1:=TRUE; };
+do_the_while(x1>=2) DO {};
+
+x:=10; x1:=20; x2:=20; y:=100;
+if (x1+test(x1,x2,f)^<5+x1 && x>2 || x1<4+x2 || x==2) DO{
+    x:=2;
+    x1:=test(test(x1,3,f)^+2,y+4,0.35)^ + 30@y*arr[2]@10;
+}
+else DO{
+
+};
+
+x1:=test(test(x1,3,f)^+2,y+4,0.35)^ + 30@y*arr[2]@10;
+
+x1:=x*100+5*100+arr[2];
+
+eval(x*10@100);
+eval(x1);
+eval(x2*10@200);
+eval(test(x1,x,f)^+x);
+typeof(x+23);
+typeof(f@30.0);
+end_main

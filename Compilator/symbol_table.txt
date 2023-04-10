@@ -1,0 +1,31 @@
+[int] x Predefined value:None
+[int] x1 Predefined value:None
+[int] x2 Predefined value:None
+[int] y Predefined value:None
+[int] arr[10] Predefined value: None
+[float] f Predefined value:None
+CONST[int] p2  Predefined value:2
+[float] f1 Predefined value:None
+[int] arr2[10] Predefined value: None
+[string] s1[100] Predefined value: None
+[bool] b11  Predefined value: TRUE
+[int] x0 Predefined value:None
+[float] z Predefined value:None
+[int] sum0 Predefined value:None
+[int] x00 Predefined value:None
+[float] f0 Predefined value:None
+[int] param1 Predefined value:None
+[int] param2 Predefined value:None
+[float] f00 Predefined value:None
+[float] f2[100] Predefined value: None
+[bool] b1 Predefined value:None
+C1 c111  Predefined value: None
+[char] ch Predefined value:None
+[int] z2 Predefined value:None
+[int] z1[100] Predefined value: None
+[bool] boolean Predefined value:None
+[string] str1 Predefined value:None
+[char] str2 Predefined value:None
+[float] v Predefined value:None
+[int] i Predefined value:None
+[char] x3 Predefined value:None
